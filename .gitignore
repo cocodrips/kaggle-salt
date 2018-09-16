@@ -1,4 +1,7 @@
+.idea/
+
 ### https://raw.github.com/github/gitignore/210c95bb02f629e5166c21e888b10d0c26442fe7/Python.gitignore
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -259,3 +262,4 @@ fabric.properties
 
 
 data/
+!.gitkeep
