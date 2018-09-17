@@ -21,7 +21,3 @@ def count_array_mask(str_array: str) -> int:
     return sum(splited[1::2])
 
 
-if __name__ == '__main__':
-    test_data = "9 93 109 94 210 94 310 95 411 95 511 96 612 96"
-    print(array_to_img(test_data))
-    print(count_array_mask(test_data))
