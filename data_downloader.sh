@@ -8,14 +8,14 @@ fi
 
 # Download
 echo "---Download---"
-kaggle competitions download -p data -c tgs-salt-identification-challenge
+kaggle competitions download -p input -c tgs-salt-identification-challenge
 
 echo "---Unzip---"
-unzip -qn data/train.zip -d data/train
-unzip -qn data/test -d data/test
+unzip -qn input/train.zip -d input/train
+unzip -qn input/test -d input/test
 echo "Finish"
 
 echo "---Delete .zip---"
-rm data/train.zip
-rm data/test.zip
+rm input/train.zip
+rm input/test.zip
 echo "Finish"
